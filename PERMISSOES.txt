@@ -1,0 +1,10 @@
+PERMISSÕES iOS — adicione estas chaves ao seu ios/Runner/Info.plist
+(entre as tags <dict> ... </dict>):
+
+<key>NSCameraUsageDescription</key>
+<string>O app precisa da câmera para adicionar fotos às suas viagens.</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>O app precisa da galeria para adicionar fotos às suas viagens.</string>
+
+PERMISSÕES Android — já incluídas em android/app/src/main/AndroidManifest.xml:
+  CAMERA, READ_EXTERNAL_STORAGE, READ_MEDIA_IMAGES

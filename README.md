@@ -19,7 +19,7 @@ um **card com carrossel de fotos** na tela inicial; ao tocar, abre os detalhes.
 > As fotos ficam em tabela separada para manter as responsabilidades limpas
 > (uma viagem tem várias fotos).
 
-## Funcionalidade aplicada ao tema (vale 6 pontos)
+## Funcionalidade aplicada ao tema
 A tela inicial exibe um **painel de resumo** com:
 - **Gasto total** — soma do custo de todas as viagens do usuário;
 - **Dias viajados** — soma da duração de todas as viagens (calculada a partir
@@ -40,7 +40,7 @@ quanto já gastou e quantos dias passou viajando.
 | Navegação entre telas | Login → Cadastro / Login → Home → Detalhe → Form |
 | Funcionalidade aplicada | painel "Gasto total + Dias viajados" |
 
-## Organização do projeto (separação de responsabilidades)
+## Organização do projeto
 ```
 lib/
 ├── main.dart                 # ponto de entrada
@@ -72,18 +72,4 @@ flutter run
 > Veja `PERMISSOES.txt` para as chaves de câmera/galeria (iOS já precisa
 > adicionar manualmente no Info.plist; Android já está pronto).
 
-## Roteiro sugerido para o vídeo (5 pontos)
-1. Abrir o app → tela de login.
-2. Clicar em "Cadastre-se", criar um usuário e voltar.
-3. Fazer login.
-4. Mostrar a home vazia → "Nova viagem".
-5. Preencher destino, datas, custo, observações e **adicionar fotos**
-   (uma da câmera, outra da galeria). Salvar.
-6. Cadastrar uma segunda viagem.
-7. Mostrar os **cards com o carrossel** funcionando (deslizar as fotos).
-8. Destacar o painel **Gasto total + Dias viajados** atualizando.
-9. Abrir uma viagem → mostrar detalhes e carrossel grande.
-10. **Editar** a viagem (mudar custo/foto) e mostrar o resumo mudando.
-11. **Excluir** uma viagem.
-12. Sair (logout).
 ```
